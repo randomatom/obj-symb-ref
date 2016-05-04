@@ -38,10 +38,9 @@ obj2 定义 control-fun() ，而且内部调用 obj1的sub_fun()
 	python obj-symb-ref.py obj_symb.txt out_dir
 
 4. 输出
-！[图片1](https://github.com/randomatom/obj-symb-ref/image/exam1.png)
-！[图片2](https://github.com/randomatom/obj-symb-ref/image/exam_all.png)
 
-
+！[图片1](https://github.com/randomatom/obj-symb-ref/raw/master/image/exam_all.png)
+！[图片2](https://github.com/randomatom/obj-symb-ref/raw/master/image/exam1.png)
 
 
 
