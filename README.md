@@ -19,11 +19,10 @@
 - **内部定义** ：可以认为是 「函数的定义」，通常是 用 tags:T 表示
 - **在外部定义** ：模块需要用到的「外部符号」，通常用 tags:U 表示
 
-比如 obj1 定义了 sub-fun() ；
-
-obj2 定义 control-fun() ，而且内部调用 obj1的sub_fun()
-
-这样，obj2 就 引用的 obj1。记做：obj2 --> obj1
+比如 
+* obj1 定义了 sub-fun() 
+* obj2 定义 control-fun() ，而且内部调用 obj1的sub_fun()
+* 这样，obj2 就 引用的 obj1, 记做：obj2 --> obj1
 
 
 | 符号类型	| 说明                    |
@@ -50,9 +49,9 @@ obj2 定义 control-fun() ，而且内部调用 obj1的sub_fun()
 
 1. 安装gcc工具链，且在 PATH 路径里；
 2. Graphviz工具，且在 PATH 路径里；
-3. 运行：
-	nm *.o > obj_symb.txt
-	python obj-symb-ref.py obj_symb.txt out_dir
+3. 运行：<br>
+> nm *.o > obj_symb.txt <br>
+> python obj-symb-ref.py obj_symb.txt out_dir <br>
 
 4. 输出图片的例子：
 
